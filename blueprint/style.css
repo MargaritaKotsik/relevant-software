@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html body{
+	height: 100%;
+	width: 100%;
+}
+
+header{
+	background: url(image/banner.png);
+	position:relative;
+}
+.top{
+	background: rgba(0, 0, 254, 0.6);
+	width: 100%;
+    height: 100%;
+}
+.logo{
+	padding: 2%;
+}
+#logo{
+	font-family: 'Myriad Pro';
+	color: white;
+	padding: 0.3%;
+	border: solid white;
+	font-weight: bold;
+	font-size: 125%;
+}
+.frst_banner{
+	padding: 19% 16%;
+    line-height: 250%;
+}
+.frst_banner p{
+	color:white;
+}
+#we_are{
+	font-family: 'Exo', sans-serif;
+	text-align: center;
+	font-size: 175%;
+}
+#ready_for{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+}
+#we_can{
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 150%;
+}
+.bottom-btn{
+	text-align: center;	
+}
+.down_icon{
+	float:left;
+	position:relative;
+	bottom: 40px;
+	left:47%;
+}
+main{
+	height: 100%;
+	width: 100%;
+	background-image: url(image/bg.png);
+	background-size: 100%;
+}
+.divider{
+	background-image: url(image/divider.png);
+	background-size: 100% 100%;
+}
+.keep_away{
+	color:black;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-top: 3%; 
+	margin-left: 33%;
+	margin-right: 32%;
+	font-size: 120%;
+	background-image: url(image/bg.png);
+	text-align: center;
+}
+.video{
+ 	background-image: url(image/video.png);
+ 	margin-top: 2%;
+	margin-left: 29.5%;
+	margin-right: 30%;
+	margin-bottom: 4%;
+	padding-top: 13%;
+	padding-left: 15%;
+	padding-bottom: 10%;
+}
+.video img{
+	max-width: 90%;
+}
+.continue{
+	background-color: #f9f9f9;
+	max-height: 100%;
+}
+.continue h1{
+	padding-left: 35%;
+	padding-right: 35%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+.center_text{
+	font-family: Raleway;
+	background-image: url(image/team.png);
+	background-size: 100% 100%;
+	text-align: center;
+}
+.center_text h1{
+	padding-top:4%;
+	font-size: 250%;
+	font-weight: bold;
+}
+.center_text p{
+	padding-top: 3%;
+    padding-left: 29%;
+    padding-right: 30%;
+    font-size: 150%;
+}
+.team{
+	height:10em;
+	color: blue;
+	font-size: 300%;
+}
+.team a:hover{
+}
+.top-wrapper{
+	opacity: 1;
+}
+.services {
+	background: url(image/services.png) no-repeat;
+	background-size: 75%;
+	margin-left: 21%;
+}
+/*#myCarousel{
+	box-shadow: 0px 6px 73px 0px rgba(11, 52, 94, 0.15);
+}
+*/
+.carousel .item img{
+    margin: 0 auto; 
+}
+
+.carousel-inner{
+  	max-width: 60%;
+  	padding-top: 20%;
+   margin-left: 10%;
+    padding-bottom: 5%;
+ }
+.carousel-control{
+	opacity: 1 !important;
+	width:0 !important;
+}
+.carousel .right{
+margin-right: 30%;
+}
+
+.carousel .left{
+margin-left: 10%;
+}
+.carousel-conteiner .glyphicon{
+	color:#1b7ce0;
+	text-align: center;
+	font-size: 0.5em !important;
+	padding: 1em !important;
+	border-radius: 5%;
+	background-color: white;
+}
+.carousel-indicators{
+	opacity: 0;
+}
+.team a{
+	position: relative;
+	top:25%;
+	padding: 0 2.2%;
+}
+.team a:nth-child(2n){
+	position: relative;
+	top:10%;
+	padding-top: 2% ;
+}
+.team a:nth-child(7){
+	position: relative;
+	top:5%;
+	padding-top: 2% ;
+}
+.team a:nth-child(6){
+	position: relative;
+	top:20%;
+	padding-top: 2% ;
+}
+.team a:nth-child(8){
+	position: relative;
+	top:27%;
+	padding-top: 2%;
+}
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+    position: relative;
+    display:inline;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+/* Column Grids End */
+
+.wrapper {
+	padding-top: 13%;
+    padding-bottom: 28%;
+	position: relative;
+	height: 30%;
+}
+.centerc{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	}
+.counter { 
+	margin-left: 7.5%;
+}
+.count-title { 
+	font-size: 4.059em; 
+	font-weight: normal;  
+	margin-top: -34;
+	text-align: center;
+	color:#1b7ce0;
+	font-family: Lora; 
+}
+.count-text { 
+	font-size: 1.125em;
+	font-weight: normal;  
+	margin-top: 8%; 
+	margin-bottom: 0; 
+	text-align: center; 
+	font-family: Lora;
+}
+.blog{
+	 background: url(image/testimonials.png);
+	 background-size: 100% 100%;
+	 margin: 3% 0 0 0%;
+}
+.testim h2{
+	font-family: Raleway;
+	padding-top: 5%;
+	font-weight: bold;
+	color: white;
+ 	text-align: center;
+}
+.nextone{
+	background: rgba(0, 0, 139, 0.8);
+}
+.creators{
+	overflow: auto;
+}
+.blue_blocks{
+	width: 33%;
+	padding: 4%;
+	float:left;
+}
+.think-block {
+	overflow-y:hidden;
+	font-size: 0.9em;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background: rgb(27, 124, 224);
+	padding:2%;
+	border-radius: 3px;
+}
+.creators{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.whocreate {
+	padding:5%;
+	width: 100%;
+}
+.whocreate img{
+	max-width: 50px;
+	float: left;
+}
+.whocreate p{
+	max-width: 95%;
+	padding-left:25%;
+	text-align: left;
+	font-size: 0.75em;
+	color: white;
+	font-family: Raleway;
+}
+.creators-bottom .blue_blocks:nth-child(1n){
+width: 66%;
+}
+.creators-bottom .blue_blocks:nth-child(1n) .whocreate{
+padding: 2.5%;
+}
+.creators-bottom .blue_blocks:nth-child(2n){
+	width: 33%;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 5px 0 5px;
+	border-color: black transparent transparent transparent;
+}
+
+footer{
+	background-image: url(image/Bg.png)
+}
+.proba{
+	text-align: center;
+	font-family: Raleway;
+	margin-top: 5%;
+}
+.form{
+	font-family: Lora;
+	width: 30%;
+	margin-left: 20%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	float: left;
+}
+.form-group{
+	color: #666666;
+
+}
+.btn-blue{
+	background-color: #1b7ce0;
+	color: white;
+	width: 100%;
+}
+.btn-blue:hover, .btn-purple:focus {
+	background-color: #1b7ce0; 
+	color: white;
+} 
+.btn-blue:active { 
+	background-color: #1b7ce0;
+	color: white;
+} 
+iframe{
+	width: 32%;
+	margin-left: 4%;
+	margin-top: 3%;
+	float: left;
+}
+.adress{
+	margin-top: 2%;
+	float: left;
+    margin-left: 4%;
+	font-family: Lora;
+	color:  #333333;
+	font-size: 0.875em;
+	line-height: 2.144;
+}
